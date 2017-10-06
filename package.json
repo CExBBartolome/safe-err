@@ -1,0 +1,27 @@
+{
+  "name": "safe-err",
+  "version": "0.1.0",
+  "description": "Creates a new Error object with a `safe` property",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js",
+    "precommit": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CExBBartolome/safe-err.git"
+  },
+  "keywords": [
+    "error-handling"
+  ],
+  "author": "CExBBartolome",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CExBBartolome/safe-err/issues"
+  },
+  "homepage": "https://github.com/CExBBartolome/safe-err#readme",
+  "devDependencies": {
+    "husky": "0.14.3",
+    "tape": "4.8.0"
+  }
+}
